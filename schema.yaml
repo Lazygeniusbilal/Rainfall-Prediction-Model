@@ -1,0 +1,15 @@
+COLUMNS:
+  day: int64
+  pressure: float64
+  maxtemp: float64
+  temparature: float64
+  mintemp: float64
+  dewpoint: float64
+  humidity: int64
+  cloud: int64
+  sunshine: float64
+  winddirection: int64
+  windspeed: float64
+
+TARGET_COLUMN:
+  rainfall: object
